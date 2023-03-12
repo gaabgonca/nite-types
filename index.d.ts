@@ -33,7 +33,7 @@ interface Locality {
 
 interface CloudStorageImage {
     url : string,
-    file_name : string
+    path : string
 }
 
 export {Ivent, Locality, CloudStorageImage}
